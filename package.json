@@ -21,7 +21,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "ninjacode": "prettier --write src/\"**/*.{jsx,js}\" && eslint src/\"**/*.{jsx,js}\""
+    "prettier": "prettier --write src/\"**/*.{jsx,js}\"",
+    "lint": "eslint src/\"**/*.{jsx,js}\"",
+    "codeFormat": "yarn prettier && yarn lint"
   },
   "eslintConfig": {
     "extends": [
