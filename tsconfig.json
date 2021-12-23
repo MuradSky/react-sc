@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["es2019", "dom"],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "preserveSymlinks": true,
+  
+    "declaration": true,
+    "sourceMap": true,
+  
+    "allowJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
