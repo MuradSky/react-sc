@@ -3,16 +3,16 @@ import React from 'react';
 function TestTypeScriptProps(props: {
   hello: string;
   year: number;
-  count: any;
-  Increment: (event: React.MouseEvent<HTMLButtonElement>) => void;
+  count: number;
+  increment: () => void;
 }) {
-  const { hello, year, count, Increment } = props;
+  const { hello, year, count, increment } = props;
   return (
     <div>
       <p>{hello}</p>
       <p>{year}</p>
       <p>{count}</p>
-      <button type="button" onClick={Increment}>
+      <button type="button" onClick={increment}>
         Increment
       </button>
     </div>
